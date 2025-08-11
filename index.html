@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kursus Cukur Rambut | IAN BARBERSCHOOL</title>
+    <style>
+      :root {
+        --primary-color: #1a1a1a;
+        --accent-color: #25d366;
+        --bg-light: #f4f4f4;
+        --text-dark: #333;
+        --white: #fff;
+        --danger-color: #e53935;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: var(--bg-light);
+        color: var(--text-dark);
+      }
+
+      header,
+      footer {
+        background-color: var(--primary-color);
+        color: var(--white);
+        text-align: center;
+        padding: 2rem 1rem;
+      }
+
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+      }
+
+      .section {
+        margin-bottom: 3rem;
+      }
+      .video-wrapper,
+      .flyer-wrapper,
+      .testimoni-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+      }
+
+      iframe,
+      img {
+        height: 100%;
+        width: 100%;
+        max-width: 480px;
+        border-radius: 30px;
+      }
+
+      .testimoni {
+        background: var(--white);
+        padding: 1rem;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 480px;
+      }
+
+      .btn-whatsapp {
+        display: inline-block;
+        padding: 1rem 2rem;
+        background-color: var(--accent-color);
+        color: var(--white);
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 8px;
+        margin-top: 1rem;
+      }
+
+      .hook {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: var(--primary-color);
+        text-align: center;
+        margin: 2rem 0;
+      }
+
+      .profile,
+      .highlight,
+      .price-box {
+        background: var(--white);
+        padding: 1rem;
+        border-radius: 12px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      ul {
+        padding-left: 1.2rem;
+        text-align: left;
+      }
+
+      .price-box {
+        font-size: 1.4rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+      }
+
+      .price-box .old-price {
+        text-decoration: line-through;
+        color: var(--danger-color);
+        font-size: 1.2rem;
+      }
+
+      .price-box .new-price {
+        color: var(--accent-color);
+        font-size: 2rem;
+        font-weight: bold;
+      }
+
+      @media (max-width: 768px) {
+        .hook {
+          font-size: 1.2rem;
+        }
+
+        header,
+        footer {
+          padding: 1.5rem 1rem;
+        }
+
+        .btn-whatsapp {
+          width: 100%;
+          padding: 1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Kursus Cukur Rambut Profesional</h1>
+      <p>Bersama IAN BARBERSCHOOL - Cetak Tukang Cukur Siap Kerja!</p>
+    </header>
+
+    <div class="container">
+      <div class="hook">Dari Pemula Jadi Barber Profesional Hanya Dalam Beberapa Minggu!</div>
+
+      <div class="price-box">
+        <div class="old-price">Harga Normal Rp1.200.000</div>
+        <div class="new-price">Sekarang Hanya Rp750.000</div>
+        <p>Untuk 1 Paket Kursus Lengkap di IAN BARBERSCHOOL</p>
+      </div>
+      <div class="section">
+        <div class="flyer-wrapper">
+          <img src="img/KURSUS CUKUR FB.jpg" alt="Flyer Kursus Cukur Rambut" />
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>📽️ Video Pengenalan Kursus</h2>
+        <div class="video-wrapper">
+          <iframe src="video/suasana ngajar.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>🧑‍🏫 Tentang Kursus</h2>
+        <p>Kursus cukur rambut ini dirancang untuk pemula maupun yang ingin meningkatkan skill. Dalam waktu singkat, Anda akan menguasai teknik dasar hingga mahir, serta dibekali dengan ilmu membuka usaha barbershop sendiri.</p>
+        <ul>
+          <li>Durasi: 2 - 4 minggu</li>
+          <li>Materi: Teori + Praktik</li>
+          <li>Fasilitas lengkap</li>
+          <li>Sertifikat & Bimbingan Karir</li>
+          <li>Biaya: Rp750.000 (sekali paket, semua pertemuan)</li>
+          <li><strong>Bonus: Anda akan mendapatkan 1 set sisir untuk praktik belajar!</strong></li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>✅ Kenapa Memilih IAN BARBERSCHOOL?</h2>
+        <div class="highlight">
+          <ul>
+            <li>✔️ Pengajar berpengalaman di industri barber</li>
+            <li>✔️ Fokus pada praktik langsung & real client</li>
+            <li>✔️ Biaya terjangkau, kualitas berkelas</li>
+            <li>✔️ Suasana belajar nyaman dan menyenangkan</li>
+            <li>✔️ Didampingi hingga bisa buka usaha sendiri</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>📚 Apa yang Akan Kamu Pelajari?</h2>
+        <div class="highlight">
+          <ul>
+            <li>✂️ Teknik dasar cukur pria</li>
+            <li>🌀 Teknik gradasi (fade, taper, low/high fade)</li>
+            <li>🎨 Beard styling & finishing touch</li>
+            <li>🧼 Perawatan alat cukur & sanitasi</li>
+            <li>📈 Tips membuka barbershop dan promosi</li>
+          </ul>
+          <p><strong>Biaya investasi hanya Rp750.000,- untuk seluruh sesi dan dapat 1 set sisir gratis!</strong></p>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>👨‍🎓 Testimoni Alumni</h2>
+        <div class="testimoni-wrapper">
+          <div class="testimoni">
+            <p><strong>Hendra, Cirebon</strong></p>
+            <p>"Dulu saya hanya pengangguran, sekarang sudah buka barbershop sendiri. Terima kasih IAN BARBERSCHOOL!"</p>
+          </div>
+          <div class="testimoni">
+            <p><strong>Agus, Bekasi</strong></p>
+            <p>"Materinya padat, langsung praktik. Saya jadi percaya diri untuk buka jasa cukur sendiri."</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>📌 Profil IAN BARBERSCHOOL</h2>
+        <div class="profile">
+          <p>
+            IAN BARBERSCHOOL adalah lembaga pelatihan cukur rambut yang telah meluluskan ratusan barber handal dari berbagai daerah. Dengan pendekatan praktik langsung, fasilitas modern, dan mentor berpengalaman, kami siap mencetak generasi
+            barber profesional yang mandiri.
+          </p>
+        </div>
+      </div>
+
+      <div class="section" style="text-align: center">
+        <h2>📲 Daftar Sekarang!</h2>
+        <a href="https://wa.me/6281234567890" target="_blank" class="btn-whatsapp">Hubungi via WhatsApp</a>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 IAN BARBERSCHOOL - Semua Hak Dilindungi</p>
+    </footer>
+  </body>
+</html>
